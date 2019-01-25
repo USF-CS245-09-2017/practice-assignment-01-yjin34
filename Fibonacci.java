@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Fibonacci
 {
-	int fibonacci(int n, String type)
+	public int fibonacci(int n, String type)
 	{
 		if (type.equals("recursive"))
 		{
@@ -14,7 +14,7 @@ public class Fibonacci
 		}
 	}
 
-	int fibonacci_recursive(int n)
+	public int fibonacci_recursive(int n)
 	{
 			if (n <= 1)
 			{
@@ -26,7 +26,7 @@ public class Fibonacci
 			}
 	}
 
-	int fibonacci_iterative(int n)
+	public int fibonacci_iterative(int n)
 	{
 			int a0 = 0;
 			int a1 = 1;
